@@ -1,0 +1,11 @@
+income = float (input ('Enter your yearly income'))
+income = round (income, 2)
+print ('\nyearly Income : ' ,income)
+if income <= 1500000.0: 
+    rate = 20
+print ('Tax Rate : ' , rate, '%')
+rate = rate/100
+deduc = 19000
+print ('Tax deduction : ' ,deduc)
+takehome= = income-deduc
+print ('Net-Pay after tax ' ,takehome )
